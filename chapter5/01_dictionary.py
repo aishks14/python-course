@@ -15,6 +15,7 @@ print("\n")
 print("Dictionary in Python:")
 print("---------------------")
 print("Created dictionary:", my_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
+print(type(my_dict))  # Output: <class 'dict'>
 
 # Accessing values in a dictionary
 print("\n")
