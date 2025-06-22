@@ -7,7 +7,7 @@ my_set.add(6)
 print("Set after adding 6:", my_set)  # Output: {1, 2, 3, 4, 5, 6}
 
 # Add multiple elements to the set
-my_set.update([7, 8, 9])
+my_set.update([7, 8, 9])   
 print("Set after adding 7, 8, 9:", my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 # Adding elements from another set
