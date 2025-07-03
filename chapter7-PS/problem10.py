@@ -2,7 +2,7 @@
 number = int(input("\nEnter a number:"))
 print("\nTable of a given number in reverse order:")
 print("-----------------------------------------")
-for i in range(number, 0, -1):
+for i in range(10, 0, -1):
     print(f"{number} x {i} = {number*i}")
 
 # ---------------------------------------------------------------------------------

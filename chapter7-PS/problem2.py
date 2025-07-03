@@ -6,7 +6,7 @@ print("-------------------------------------------------")
 print(names_starting_with_K)
 
 # Alternative way with different printing for the same problem
-print("\nPerson with starting letter of their name as 'K' with prefix of greetings :")
+print("\nPerson with starting letter of their name as 'A' with prefix of greetings :")
 print("---------------------------------------------------------------------------")
 for name in people_list:
     if(name.startswith("A")):
