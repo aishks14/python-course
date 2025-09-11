@@ -1,4 +1,4 @@
-# `with`` statement Automatically handles closing the file
+# `with` statement Automatically handles closing of the file
 with open("mypythonfile.txt", "r") as file:
     print(file.read())
     
