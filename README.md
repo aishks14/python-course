@@ -1,4 +1,4 @@
-# Python Learning Projects
+# Python Learning Project
 
 This repository contains a collection of Python scripts and mini-projects, organized by chapters, to help you learn and practice Python programming concepts from basics to advanced topics.
 
@@ -21,8 +21,14 @@ Hands-on exercises to practice using variables and different data types.
 ### chapter3 - Strings
 Learn about Python strings, including creation, manipulation, splitting, joining, and formatting. Practice basic string operations and methods.
 
+### chapter3-PS - Practice Set for Strings
+Practice problems to reinforce string manipulation and operations.
+
 ### chapter4 - Lists, Tuples, and Sets
 Covers Python's list, tuple, and set data structures. Learn how to create, access, modify, and perform operations on these collections.
+
+### chapter4-PS - Practice Set for Lists, Tuples, and Sets
+Practice problems to strengthen your understanding of lists, tuples, and sets.
 
 ### chapter5 - Dictionaries and Sets
 Focuses on dictionaries and sets, including their creation, usage, and common methods. Practice storing and accessing key-value pairs and working with unique collections.
@@ -49,7 +55,10 @@ Learn how to define and use functions, pass arguments, return values, and implem
 Practice problems to strengthen your understanding of functions and recursive solutions.
 
 ### chapter10 - Object-Oriented Programming (OOP)
-Introduces classes and objects, attributes, methods, and the basics of OOP in Python. Includes examples of creating and using classes.
+Introduces classes and objects, attributes, methods, and the basics of OOP in Python. Includes examples of creating and using classes, such as the `Employee` and `Dog` classes.
+
+### chapter10-PS - Practice Set for OOP
+Practice problems to reinforce OOP concepts, including class variables, static methods, and object instantiation.
 
 ### project1 - Mini Projects
 Contains small projects like the Snake-Water-Gun game, demonstrating application of Python concepts in real-world scenarios.
@@ -60,7 +69,7 @@ Contains small projects like the Snake-Water-Gun game, demonstrating application
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aishks14/python-course.git
    cd python
    ```
 
