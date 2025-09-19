@@ -13,27 +13,33 @@ class Employee:
 
 # Employee 1 using the class
 employee1 = Employee()
+employee1.name = "Aishwarya Kumar Singh"
+employee1.emp_id = 20496824
+employee1.salary = 2500000
 print("Employee1 Details:")
 print("------------------")
-print("Name:", "Aishwarya Kumar Singh")
-print("Emp Id:", 20496824)
+print("Name:", employee1.name)
+print("Emp ID:", employee1.emp_id)
 print("Language:", employee1.language)
 print("Experience:", employee1.experience)
 print("Designation:", employee1.designation)
-print("Salary(appx):", 2500000)
+print("Salary(appx):", employee1.salary)
 print("Location:", employee1.location)
 print("\n")
 
 # Employee 2 using the class
 employee2 = Employee()
+employee2.name = "Prashant Singh"
+employee2.emp_id = 20496892
+employee2.salary = 2200000
 print("Employee2 Details:")
 print("------------------")
-print("Name:", "Prashant Singh")
-print("Emp Id", 20496892)
+print("Name:", employee2.name)
+print("Emp Id:", employee2.emp_id)
 print("Language:", employee2.language)
 print("Experience:", employee2.experience)
 print("Designation:", employee2.designation)
-print("Salary(appx):", 2200000)
+print("Salary(appx):", employee2.salary)
 print("Location:", employee2.location)
 print("\n")
 
