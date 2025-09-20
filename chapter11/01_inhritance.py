@@ -84,7 +84,7 @@ carObj = Car()
 bikeObj = Bike()
 carObj.start()
 bikeObj.start()
-# Above Bike and Car classess are used without `super()`` function and we are calling
+# Above Bike and Car classess are used without `super()` function and we are calling
 # Vehicle's start() method directly using class name.
 print("\n") 
 
