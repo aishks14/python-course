@@ -1,0 +1,17 @@
+Python is a high-level, versatile programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python has grown into one of the most popular languages in the world.
+
+Its syntax is clean and intuitive, making it ideal for beginners, while its powerful libraries and frameworks make it a favorite among professionals in fields like:
+
+Web development (Django, Flask)
+
+Data science & machine learning (Pandas, NumPy, Scikit-learn, TensorFlow)
+
+Automation & scripting
+
+Game development
+
+Cybersecurity & DevOps
+
+Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It’s dynamically typed and garbage-collected, which means developers can focus more on solving problems than managing memory.
+
+Whether you're building a simple script or a complex AI model, Python’s community, documentation, and ecosystem make it a powerful tool for modern development.

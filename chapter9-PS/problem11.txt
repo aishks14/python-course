@@ -1,0 +1,38 @@
+Python File Input/Output (I/O)
+
+Python provides built-in functions to work with files. The most commonly used function is `open()`, which allows you to read from or write to a file.
+
+Basic Syntax:
+open(filename, mode)
+
+Modes:
+- 'r'  : Read (default mode)
+- 'w'  : Write (overwrites existing content)
+- 'a'  : Append (adds to the end of the file)
+- 'r+' : Read and write
+- 'w+' : Write and read (overwrites)
+- 'a+' : Append and read
+
+Reading from a file:
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
+Writing to a file:
+with open('example.txt', 'w') as file:
+    file.write("This is a new line of text.")
+
+Appending to a file:
+with open('example.txt', 'a') as file:
+    file.write("\nThis line is added at the end.")
+
+Always use 'with' to ensure the file is properly closed after use.
+
+Binary Mode:
+Use 'rb', 'wb', or 'ab' to work with binary files like images or audio.
+
+Example:
+with open('image.png', 'rb') as img:
+    data = img.read()
+
+File I/O is essential for tasks like logging, data storage, and configuration management.

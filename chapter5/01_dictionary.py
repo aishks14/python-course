@@ -2,6 +2,10 @@
 # A dictionary is a collection of key-value pairs.
 # Dictionaries are mutable, meaning you can change their content.
 # Dictionaries are defined using curly braces {}.
+# Dictionaries are unordered collections, meaning the order of items is not guaranteed.
+# Dictionaries are indexed by keys, which can be of any immutable data type (e.g., strings, numbers, tuples).
+# Dictionaries are useful for storing data that needs to be accessed by a unique key.
+# Dictionaries cannot contain duplicate keys, but they can contain duplicate values.
 
 # Example of a dictionary
 my_dict = {
@@ -15,6 +19,7 @@ print("\n")
 print("Dictionary in Python:")
 print("---------------------")
 print("Created dictionary:", my_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
+print(type(my_dict))  # Output: <class 'dict'>
 
 # Accessing values in a dictionary
 print("\n")
